@@ -1,6 +1,12 @@
 
 # grunt-newer
 
+<p/>
+<img src="https://nodei.co/npm/grunt-newer.png?downloads=true&stars=true" alt=""/>
+
+<p/>
+<img src="https://david-dm.org/rse/grunt-newer.png" alt=""/>
+
 Grunt Task for running tasks if source files are newer only.
 
 This mimics the behaviour of good old Unix build tool `make(1)` within
@@ -13,12 +19,6 @@ It is also a little bit similar to (and even can be combined with) the
 Grunt `watch` task (from the `grunt-contrib-watch` package). But instead
 of continiously monitoring the filesystem for modifications, this task
 only checks the modification time (`mtime`) of the files once.
-
-<p/>
-<img src="https://nodei.co/npm/grunt-newer.png?downloads=true&stars=true" alt=""/>
-
-<p/>
-<img src="https://david-dm.org/rse/grunt-newer.png" alt=""/>
 
 ## Getting Started
 
