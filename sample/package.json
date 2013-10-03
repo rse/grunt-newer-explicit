@@ -1,0 +1,32 @@
+{
+    "name":        "sample",
+    "version":     "1.2.3",
+    "description": "",
+    "main":        "src/foo.txt",
+    "scripts": {
+        "test": "grunt"
+    },
+    "repository": {
+        "type": "git",
+        "url":  "https://github.com/rse/grunt-newer.git"
+    },
+    "author": {
+        "name":  "Ralf S. Engelschall",
+        "email": "rse@engelschall.com",
+        "url":   "http://engelschall.com"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url":  "http://opensource.org/licenses/MIT"
+    }],
+    "homepage": "https://github.com/rse/grunt-newer",
+    "bugs":     "https://github.com/rse/grunt-newer/issues",
+    "devDependencies": {
+        "grunt":                "~0.4.1",
+        "grunt-cli":            "~0.1.9",
+        "grunt-contrib-jshint": "~0.4.3",
+        "grunt-contrib-copy":   "~0.4.1",
+        "grunt-contrib-watch":  "~0.5.3",
+        "grunt-contrib-clean":  "~0.5.0"
+    }
+}
