@@ -1,11 +1,11 @@
 
-# grunt-newer
+# grunt-newer-explicit
 
 <p/>
-<img src="https://nodei.co/npm/grunt-newer.png?downloads=true&stars=true" alt=""/>
+<img src="https://nodei.co/npm/grunt-newer-explicit.png?downloads=true&stars=true" alt=""/>
 
 <p/>
-<img src="https://david-dm.org/rse/grunt-newer.png" alt=""/>
+<img src="https://david-dm.org/rse/grunt-newer-explicit.png" alt=""/>
 
 Grunt Task for running tasks if source files are newer only.
 
@@ -32,14 +32,14 @@ install and use Grunt plugins. Once you're familiar with that process,
 you may install this plugin with this command:
 
 ```shell
-npm install grunt-newer --save-dev
+npm install grunt-newer-explicit --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your
 Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks("grunt-newer");
+grunt.loadNpmTasks("grunt-newer-explicit");
 ```
 
 ## Task Options

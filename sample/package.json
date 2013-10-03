@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url":  "https://github.com/rse/grunt-newer.git"
+        "url":  "https://github.com/rse/grunt-newer-explicit.git"
     },
     "author": {
         "name":  "Ralf S. Engelschall",
@@ -19,8 +19,8 @@
         "type": "MIT",
         "url":  "http://opensource.org/licenses/MIT"
     }],
-    "homepage": "https://github.com/rse/grunt-newer",
-    "bugs":     "https://github.com/rse/grunt-newer/issues",
+    "homepage": "https://github.com/rse/grunt-newer-explicit",
+    "bugs":     "https://github.com/rse/grunt-newer-explicit/issues",
     "devDependencies": {
         "grunt":                "~0.4.1",
         "grunt-cli":            "~0.1.9",

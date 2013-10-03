@@ -1,5 +1,5 @@
 /*
-**  grunt-newer -- Grunt Task for running tasks if source files are newer only
+**  grunt-newer-explicit -- Grunt Task for running tasks if source files are newer only
 **  Copyright (c) 2013 Ralf S. Engelschall <rse@engelschall.com>
 **
 **  Permission is hereby granted, free of charge, to any person obtaining
