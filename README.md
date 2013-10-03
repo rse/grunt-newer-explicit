@@ -20,6 +20,13 @@ Grunt `watch` task (from the `grunt-contrib-watch` package). But instead
 of continiously monitoring the filesystem for modifications, this task
 only checks the modification time (`mtime`) of the files once.
 
+Notice that there is a simlar Grunt plugin
+[grunt-newer](https://npmjs.org/package/grunt-newer) which provides an
+equal functionality, but performs its operation implicitly and has to
+store timestamps to know what has changed between runs. I prefer the
+more explicit and database-less way as in the old Unix `make(1)`, hence
+I created this task `grunt-newer-explicit`.
+
 ## Getting Started
 
 This plugin requires Grunt `~0.4.0`
