@@ -26,8 +26,9 @@
 module.exports = function (grunt) {
 
     /* global require: false */
-    var path = require("path");
-    var fs   = require("fs");
+    var path  = require("path");
+    var fs    = require("fs");
+    var chalk = require("chalk");
 
     /*  define the Grunt task  */
     grunt.registerMultiTask("newer", "Run tasks if source files are newer only", function () {
@@ -69,7 +70,7 @@ module.exports = function (grunt) {
                 /*  check for source file  */
                 var src_stat = statFile(src);
                 if (src_stat === null) {
-                    grunt.log.warn("Source file \"" + src + "\" not found.");
+                    grunt.log.warn("Source file \"" + chalk.red(src) + "\" not found.");
                     return;
                 }
 
@@ -82,11 +83,11 @@ module.exports = function (grunt) {
                 /*  if destination file is (still) not existing or
                     out-of-date we know that the source file is newer  */
                 if (dst_stat === null) {
-                    grunt.log.writeln("Destination file \"" + dst + "\" not found.");
+                    grunt.log.writeln("Destination file \"" + chalk.red(dst) + "\" not found.");
                     newer = true;
                 }
                 else if (mtimeOf(src_stat) > mtimeOf(dst_stat)) {
-                    grunt.log.writeln("Destination file \"" + dst + "\" out-of-date.");
+                    grunt.log.writeln("Destination file \"" + chalk.red(dst) + "\" out-of-date.");
                     newer = true;
                 }
             });
@@ -95,11 +96,15 @@ module.exports = function (grunt) {
         /*  in case one of the source files is newer, run the specified
             tasks to allow the destination files to be (re)created */
         if (newer) {
-            grunt.log.writeln("Running tasks: \"" + options.tasks.join("\", \"") + "\"");
+            grunt.log.writeln("Running tasks: \"" +
+                options.tasks
+                .map(function (task) { return chalk.green(task); })
+                .join("\", \"") +
+            "\"");
             grunt.task.run(options.tasks);
         }
         else
-            grunt.log.writeln("Nothing changed.");
+            grunt.log.writeln(chalk.gray("Nothing changed."));
     });
 };
 
