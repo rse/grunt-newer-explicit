@@ -1,6 +1,6 @@
 /*
 **  grunt-newer-explicit -- Grunt Task for running tasks if source files are newer only
-**  Copyright (c) 2013 Ralf S. Engelschall <rse@engelschall.com>
+**  Copyright (c) 2013-2014 Ralf S. Engelschall <rse@engelschall.com>
 **
 **  Permission is hereby granted, free of charge, to any person obtaining
 **  a copy of this software and associated documentation files (the
