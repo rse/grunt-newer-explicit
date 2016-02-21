@@ -1,39 +1,41 @@
 {
-    "name":        "grunt-newer-explicit",
-    "homepage":    "http://github.com/rse/grunt-newer-explicit",
+    "name": "grunt-newer-explicit",
+    "homepage": "http://github.com/rse/grunt-newer-explicit",
     "description": "Grunt Task for running tasks if source files are newer only",
-    "version":     "0.9.4",
-    "license":     "MIT",
+    "version": "0.9.4",
+    "license": "MIT",
     "author": {
-        "name":    "Ralf S. Engelschall",
-        "email":   "rse@engelschall.com",
-        "url":     "http://engelschall.com"
+        "name": "Ralf S. Engelschall",
+        "email": "rse@engelschall.com",
+        "url": "http://engelschall.com"
     },
     "keywords": [
         "gruntplugin",
-        "newer", "time", "mtime"
+        "newer",
+        "time",
+        "mtime"
     ],
     "repository": {
         "type": "git",
-        "url":  "git://github.com/rse/grunt-newer-explicit.git"
+        "url": "git://github.com/rse/grunt-newer-explicit.git"
     },
     "bugs": {
-        "url":  "http://github.com/rse/grunt-newer-explicit/issues"
+        "url": "http://github.com/rse/grunt-newer-explicit/issues"
     },
     "main": "Gruntfile.js",
     "devDependencies": {
-        "grunt":                "~0.4.5",
-        "grunt-cli":            "~0.1.13",
+        "grunt": "~0.4.5",
+        "grunt-cli": "~0.1.13",
         "grunt-contrib-jshint": "~0.10.0",
-        "grunt-contrib-clean":  "~0.6.0"
+        "grunt-contrib-clean": "~0.6.0"
     },
     "peerDependencies": {
-        "grunt":                "~0.4.5"
+        "grunt": ">=0.4.0"
     },
     "dependencies": {
-        "chalk":                "~0.5.1"
+        "chalk": "~0.5.1"
     },
     "engines": {
-        "node":                 ">=0.10.0"
+        "node": ">=0.10.0"
     }
 }
