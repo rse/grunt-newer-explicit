@@ -2,7 +2,7 @@
     "name":        "grunt-newer-explicit",
     "homepage":    "http://github.com/rse/grunt-newer-explicit",
     "description": "Grunt Task for running tasks if source files are newer only",
-    "version":     "0.9.6",
+    "version":     "0.9.7",
     "license":     "MIT",
     "author": {
         "name":    "Ralf S. Engelschall",
