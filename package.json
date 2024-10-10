@@ -28,7 +28,7 @@
         "grunt-contrib-clean":  "1.1.0"
     },
     "peerDependencies": {
-        "grunt":                "1.0.3"
+        "grunt":                ">=1.0.3"
     },
     "dependencies": {
         "chalk":                "2.4.1"
